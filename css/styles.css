@@ -1,0 +1,464 @@
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  i {
+    margin-right: 0.5rem;
+  }
+
+  h1 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+  }
+
+  h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-family: 'Montserrat';
+  }
+
+  p {
+    color: #8f8f8f;
+    font-size: 16px;
+  }
+
+  .container-fluid {
+    padding: 3% 15% 7%;
+  }
+
+  body {
+    font-family: 'Ubuntu';
+    font-weight: normal;
+  }
+
+  /* IDs */
+  #title {
+    background-color: #ff4c68;
+  }
+
+  /* navigation bar */
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+
+  .nav-item {
+    padding: 0 18px 0 0;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+  a.navbar-brand {
+    transition: width 1s, height 1s, transform 0.4s;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Ubuntu';
+  }
+
+  a.navbar-brand:hover {
+    transform: translate(10px);
+  }
+
+  /* download button */
+  .download-button {
+    margin: 5% 3% 5% 0;
+    padding-left: 1rem;
+  }
+
+  /* title image */
+  .title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+    z-index: 0;
+  }
+
+  /* features Section */
+  #features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+  }
+
+  .feature-box {
+    text-align: center;
+    padding: 5%
+  }
+
+  /* icons */
+  .icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+
+  .icon:hover {
+    color: #ff4c68;
+    transition-timing-function: ease-in-out;
+  }
+
+  /* testimonial Section */
+  #testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+  }
+
+  @media(max-width:1020px){
+    h2{font-size: 40px;}
+    .title-image{position: static;width: 50%;transform: rotate(0);}
+    #title{text-align: center;}
+  }
+
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+  }
+
+  .carousel-item {
+    padding: 7% 20% 35% 20%;
+  }
+
+  /* press section */
+  #press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px
+  }
+
+  /* carousel section */
+  .carousel-item {
+    height: 500px;
+  }
+
+  /* card section */
+  /*=============================================================
+      Authour URL: www.designbootstrap.com
+
+      http://www.designbootstrap.com/
+
+      License: MIT
+  ========================================================  */
+  /*============================================================
+  BACKGROUND COLORS
+  ============================================================*/
+  .db-bk-color-one {
+    background-color: #f55039;
+  }
+
+  .db-bk-color-two {
+    background-color: #46A6F7;
+  }
+
+  .db-bk-color-three {
+    background-color: #47887E;
+  }
+
+  /*============================================================
+  PRICING STYLES
+  ==========================================================*/
+  .db-padding-btm {
+    padding-bottom: 50px;
+  }
+
+  .db-button-color-square {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+  }
+
+  .db-button-color-square:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+  }
+
+  .db-pricing-eleven {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    color: #fff;
+    line-height: 30px;
+  }
+
+  .db-pricing-eleven ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .db-pricing-eleven ul li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .db-pricing-eleven ul li i {
+    margin-right: 5px;
+  }
+
+  .db-pricing-eleven .price {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px 20px 20px 20px;
+    font-size: 60px;
+    font-weight: 900;
+    color: #FFFFFF;
+  }
+
+  .db-pricing-eleven .price small {
+    color: #B8B8B8;
+    display: block;
+    font-size: 12px;
+    margin-top: 22px;
+  }
+
+  .db-pricing-eleven .type {
+    background-color: #52E89E;
+    padding: 50px 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  .db-pricing-eleven .pricing-footer {
+    padding: 20px;
+  }
+
+  .db-attached>.col-lg-4,
+  .db-attached>.col-lg-3,
+  .db-attached>.col-md-4,
+  .db-attached>.col-md-3,
+  .db-attached>.col-sm-4,
+  .db-attached>.col-sm-3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .db-pricing-eleven.popular {
+    margin-top: 10px;
+  }
+
+  .db-pricing-eleven.popular .price {
+    padding-top: 80px;
+  }
+
+  #h2-card{margin:5rem 0 1rem;}
+  .type2{background-color: white;color: black;padding:0.5rem;}
+
+  #cta{background-color: #ff4c68;padding: 6% 20% 3%;text-align: center;color: white;line-height: 1.5;}
+  #footer{text-align: center;padding: 7% 0 3%;}
+  .social-icon{margin: 20px 10px;}
+
+
+
+/* video testimoial */
+.space-medium {margin-bottom: 8%;}
+.video-testimonial-block { position: relative; width: auto; height: 206px; overflow: hidden; margin-bottom: 30px; }
+.video-testimonial-block .video-thumbnail { height: 100%; width: 100%; position: absolute; z-index: 1; background-size: cover; top: 0; left: 0; }
+.video-testimonial-block .video { }
+.video-testimonial-block .video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0px; }
+.video-testimonial-block .video-play { position: absolute; z-index: 2; top: 50%; left: 50%; margin-left: -40px; margin-top: -18px; text-decoration: none; }
+.video-testimonial-block .video-play::before { content: "\f144"; font: normal normal normal 14px/1; font-family: 'Font Awesome\ 5 Free'; font-weight: 900; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-size: 50px; color: #b3b5bc; }
+.video-testimonial-block .video-play:hover::before { color: #172651; }
+.mb10{margin-bottom:10px;}
+.section-title { margin-bottom: 40px; }
+
+
+
+
+
+
+/* contact section */
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+  /* map 2 section */
+  @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.no-gutters
+{
+  padding-left: 2%;
+}
+.contact4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.contact4 h1, .contact4 h2, .contact4 h3, .contact4 h4, .contact4 h5, .contact4 h6 {
+  color: #3e4555;
+}
+
+.contact4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.contact4 .form-control {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.contact4 .form-control:focus {
+  border-color: #ffffff;
+}
+
+.contact4 input::-webkit-input-placeholder,
+.contact4 textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input:-ms-input-placeholder,
+.contact4 textarea:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input::placeholder,
+.contact4 textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 .right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.contact4.bg-info {
+    background-color: #ff4c68 !important;
+}
+
+.contact4 .text-inverse {
+    color: #3e4555 !important;
+}
+
+@media (min-width: 1024px) {
+	.contact4 .contact-box {
+    padding: 80px 105px 80px 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contact4 .contact-box {
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.contact4 .right-image {
+			position: relative;
+			bottom: -95px;
+	}
+}
+
+
+ /* Submit button pop-up section STARTS */
+ .popup
+ {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* div button */
+#music {
+    background-color: white;
+    color: black;
+    margin-left: 2%;
+    border-radius: 5px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+}
+#music:hover{background-color: lightgray;}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
